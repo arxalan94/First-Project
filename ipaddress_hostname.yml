@@ -3,7 +3,6 @@
   connection: local
   tasks:
     - debug: var=ansible_all_ipv4_addresses
-    #- debug: var=ansible_default_ipv4.addressi
     - debug: var=inventory_hostname
    # - debug: var=hostvars[inventory_hostname]['ansible_default_ipv4']['address']
    # - debug: var=uptime 
